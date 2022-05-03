@@ -4,7 +4,7 @@ A repo to house a toy project practicing making AJAX requests through `XMLHttpRe
 ## Basic Overview
 This is a basic toy project used to practice simulating a single page application through the `XMLHttpRequest` API.
 
-On load in browser, a blank search box appears. Users are able to search for a country, which will trigger an `XHRHttpRequest` after a 300ms delay (using `setTimeout` to avoid making excess requests. The input box will display the best match based on text entered by the user, as well as a list of other possible countries that match the input string.
+On load in browser, a blank search box appears. Users are able to search for a country, which will trigger an `XMLHttpRequest` after a 300ms delay (using `setTimeout` to avoid making excess requests. The input box will display the best match based on text entered by the user, as well as a list of other possible countries that match the input string.
 
 In respect of functionality, users can:
 1. Press the `up` and `down` arrow keys to scroll through the listed options. Reaching the top or bottom of the list will simply cause the cursor to start at the bottom or the top of the list, respectively.
